@@ -1,3 +1,10 @@
 How Git is Changing the Web
 
-- 
+- Before git, most folks using centralized repo - SVN
+    - server is single source of truth and requires a sysadmin to keep it running well
+    - wouldn't use it for a hobby project because too much overhead
+- git's simplicity means you can run it in nearly every folder on your computer to version your documents
+- SVN rquired long-lived branches and static servers
+- sites built on jekyll and ember are possible once you have git
+- git's short-lived branches can work with websites - this is what Netlify does - each deploy preview has its own URL thanks to git
+- a demo of how git can be used to manage websites
