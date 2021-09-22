@@ -1,0 +1,10 @@
+How to manage releses using git tags and semantic versioning 
+
+semantic is easy: MAJOR.MINOR.PATCH
+
+PATCH = trivial change or bugfix
+
+MINOR = functionality change, but backwards compatible
+
+MAJOR = breaking functionality changes
+
