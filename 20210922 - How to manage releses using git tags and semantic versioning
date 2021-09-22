@@ -18,3 +18,34 @@ Since they're set in stone - combining w/ git tags is a great match!
 1. lightweight tag - assigned to a commit
 2. annotated tags - full object in git database that is checksummed and can be signed. He says this is the one you want ot actually be using!
 
+if you combine tags and semantic releases, it allows communication about the degree of changes
+
+Can use CI systems to (including Bitbucket) to do special things when certain tags are committed. 
+
+Avoid the bare minimum w/ the annotation. You should actually do:
+
+Patch releases
+- list your bux fixes - issue or Jira numbers
+
+Minor Release
+- above plus
+- List of chagnes
+- usage details
+
+Major Release 
+- above plus
+- functionality removed
+- functionality added
+- upgrade process if breaking changes
+
+to help make the data for the annotated tag:
+
+git log --pretty=format:"%s" <last release>...HEAD --no-merges 
+
+git tag -a <tag-name> -m"$(the command above)"
+
+can do automated tag generation 
+- marketplace for scripts
+- create a bash script
+- the guy from this presentation has a script to do this mikemiles86/semtag-generator
+
