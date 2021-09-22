@@ -1,0 +1,28 @@
+Pain Pionts for Manual Deployment
+- Inconsistent Deploys
+- Missed Testing - maybe on new features that are now live
+- Feature lag
+- long dev cycles - if it's painful, people will let it lag so they don't have to keep doing it.
+- tribal knowledge - if it's not automated, then when the person is on vacation you can't deploy
+- employee turnover
+
+Benefits of Audomated Dev
+- single click dev environments - dont' have to pass around .bashrcs, etc
+- build and test on commit - AWESOME!!
+- consistent across environments
+- externalized configs - configs don't need to be within the code. The CICD can pull in the configs at deploy time
+- infrastructure as code - everything is within the code. Therefore it can be audited and versioned
+- automated triggers to production 
+
+Amazon ECS
+
+Use the CDK and you can use whatever language you want. It's also versioned, which is great. You keep track of how your configs change via source control. 
+
+You can use CodeBuild (do we have this?) - produces software packages!! (including multiple concurrently!)
+
+He uses github actions - could we use somethign similar from our CI software?
+
+CodeBuild task definition can contain the information needed to create the Docker/Podman containers.
+
+One CodeBuild runs we have an ECS cluster
+
