@@ -8,3 +8,13 @@ MINOR = functionality change, but backwards compatible
 
 MAJOR = breaking functionality changes
 
+Once released - version CANNOT change
+
+As soon as you release, assume someone is using it
+
+Since they're set in stone - combining w/ git tags is a great match!
+
+2 kinds:
+1. lightweight tag - assigned to a commit
+2. annotated tags - full object in git database that is checksummed and can be signed. He says this is the one you want ot actually be using!
+
