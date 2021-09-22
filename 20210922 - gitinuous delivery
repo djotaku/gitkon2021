@@ -1,0 +1,14 @@
+git and continous delivery is a great way of developing
+
+manual code review is helpful, but expensive and prone to human error!
+
+why expensive? because $1.42/minute is the cost of your dev's time!
+
+so we want AUTOMATED tools for continous devilery
+
+Part of that, obviously, is automated testing
+
+basically, a dev finished their branch, merges it into the shared branch. Then the CI/CD platform is doing testing, vulnerability scan, and the push to prod
+
+what's the point? Well, you're able to learn a lot faster if your build has issues, changes are tested and vetted every time. And release cycles go faster.
+
