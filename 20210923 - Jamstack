@@ -1,2 +1,26 @@
 Jamstack: Deploying Blazing Fast Static Sites Using Git
 
+Static web page - delivered exactly as stored - no changes between storage and presentation to user
+
+Dynamic web page - some generated dynamically, when needed (eg via databases)
+
+Static web page - 
+    - fast -nothing to generated
+    - cheap - any server can serve it up
+    - easy to maintain - just a text file
+    - secure - no code executed
+    - easy to scale - just need more storage
+    - stable - no processes are executed, just delivering files
+    
+Jamstack - a way of building sites that deliver better performance, higher security, lower cost, etc
+
+Jamstack
+    - Generate static assets at build time - basically build or compile all your assets during "compile"
+    - Deploy those assets to a CDN - 
+    - Use Javascript to call APIs
+    
+Tools
+    - Static Site Generator - the software that produces and deploys your site; eg Hugo (uses go), Gatsby (react), Next.js
+    - Headless CMS - unlike Wordpress where you have to use PHP, the Headless CMS is one where the content repo is decoupled from the presentation layer; Storyblok is an example of a headless CMS
+    - Serverless Platform - build, integrate, deploy, and host the application. When we change the code and push to github, this platform will trigger a build process to generate the static assets and host it. eg Vercel, Netlify
+    
