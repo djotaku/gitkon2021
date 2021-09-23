@@ -1,0 +1,24 @@
+Don't have to make a tradeoff between speed and stability - if you have top performers they can go fast without messign up stability. Speed actually ends up being an enabler of stability.
+
+The DORA 4
+
+1. Lead time - how long does it take to move through the whole process
+
+    - How long does it take from code commit to code being in production? (if there's a part after this you have no control over it, you don't count that part)
+    - If you change only one line of code, what are all the steps needed to release? How long does it take?
+
+2. Deployment frequency
+
+    - How often is code pushed? 
+    - like a muscle. The more you do it, the better the team gets at it
+
+3. Change failure rate
+
+    - Can you say with numerical confidence how many releases require an issue for the customer?
+    
+4. MTTR
+
+    - Time to restore service when there is an incident
+    
+Measuring is hard. We can't improve if we can't measure it!
+
