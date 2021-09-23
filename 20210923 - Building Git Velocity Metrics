@@ -1,0 +1,11 @@
+Building Git Velocity Metrics
+
+Why?
+    - Deliver products to customer faster
+    - introduce fewer bugs
+    
+Want to use the DORA metrics (see previous talk today)
+
+Git Velocity will track your DORA metrics for your project. Then you set up threshholds and it can alert you if you are missing those thresholds.
+
+Projects are collections of repos. 

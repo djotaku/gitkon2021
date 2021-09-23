@@ -1,0 +1,19 @@
+Driving Jira with Git
+
+Each Jira issue has a key
+
+"A git commit is a process document. Developers don't like Jira. I've already left races fo my process when I pushed the code."
+
+However, for team leads and managers, they need to look in Jira, not git. 
+
+Why automate Jira using Git?
+    - Flow - we don't want to break the dev's flow state; devs take 10-15 min to start working after an interruption
+    - consistency - team feels like they're working towards the same objective - Jira is updated by all; 
+    - time - team members are able to check ticket state at their own time; Also they're not interrupted. Also saves meeting time.
+    
+Two ways to automate:
+    - smart commits
+        - you use certain things in your commit like #Time #Comment or #[Transition] in your commit message and Jira updtates correctly
+    - Automation for Jira
+        - you don't need to remember all that syntax. Just need to use the Jira issue key.
+        - 

@@ -1,0 +1,16 @@
+Writing A Book Using Git: How Git Can Keep You Organized On A Project
+
+Perks of Writing in Git
+    - More detailed version history than any word processing software
+    - Transparency - comments don't vanish like in Google Docs or Word
+    - Designed to be used by multiple people in different stages of the process
+
+Brainstorming and Organizing
+    - Kanban Boards as a brainstorming technique
+        - she made one set of cards per theme in the book
+        - then she turned these into flash cards (physical) to organize her chapters
+        - then chapter outline in Kanban
+
+Editing book in Git
+    - the editor would make a pull request for anything they wanted to change (and changed)
+    - 
