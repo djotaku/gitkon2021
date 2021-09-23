@@ -1,0 +1,29 @@
+Keynote: Worse Is Better: Git And Its Ecosystem
+
+What does "worse is better" mean?
+1. Simplicity - it's more important for the implementation to be simple
+2. Correctness - it's slightly better to be simple than correct
+3. consistency - better to drop less common circumstances than to introduce complexitiy or inconsistency
+4. completeness - should be sacrificed if simplicity is jeopardized.
+
+Simplicity is the most important thing.
+
+
+The right thing philosophy
+1. simplicity - more important for the interface to be simple than the implementation. Users should find the interface simple to use.
+2. correctness - bug free program
+3. consistency - consistency is as important as correctness. 
+4. completeness - must cover all use cases.
+
+With this one importance goes 4->3->2->1
+
+At Github they say "shipping is a feature" - it's important to actually get the product out the door!
+
+Git is an example of the worse is better philosophy in practice
+
+Linus releases git before it's ready and ... eventually it wins because people start using it and it gets mindshare
+
+what's next for git?
+1. Support for large repos - game studios can't really use git; Git LFS is OK, but not as good as built-in
+2. Better cross-platform support - works best on Linux. 
+3. should get easier to use - shouldn't NEED a GUI
